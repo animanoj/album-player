@@ -1,0 +1,53 @@
+{
+  "name": "AlbumPlayer",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "flow": "flow",
+    "postinstall": "node ./android-release-gradle-fix.js"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.3.3",
+    "react": "16.8.3",
+    "react-native": "0.59.3",
+    "react-native-elements": "^1.1.0",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-get-music-files": "^2.1.0",
+    "react-native-largelist-v3": "^3.0.13",
+    "react-native-layout-grid": "^0.0.2",
+    "react-native-permissions": "^1.1.1",
+    "react-native-popup-dialog": "^0.18.2",
+    "react-native-sortable-list": "^0.0.23",
+    "react-native-spring-scrollview": "^2.0.20",
+    "react-native-swift": "^1.2.2",
+    "react-native-track-player": "react-native-kit/react-native-track-player#dev",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.6.1",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "rn-spotify-sdk": "^1.2.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/runtime": "^7.4.3",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-flow": "^1.0.3",
+    "babel-jest": "^24.7.1",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.12.4",
+    "flow-bin": "^0.96.0",
+    "jest": "^24.7.1",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "isSwift": true
+}
